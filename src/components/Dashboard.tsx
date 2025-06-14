@@ -43,7 +43,7 @@ export default function Dashboard({ authResponse, onLogout }: DashboardProps) {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-slate-950 text-gray-900 dark:text-gray-100">
       <Sidebar onLogout={onLogout} username={user.username} />
-      
+      fff
       <div className="lg:pl-64">
         <div className="p-4 lg:p-8">
           <div className="mb-8 pt-12 lg:pt-0">
