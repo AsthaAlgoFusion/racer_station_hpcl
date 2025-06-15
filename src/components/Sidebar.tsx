@@ -12,7 +12,8 @@ import {
   Menu,
   LogOut,
   Users as UsersIcon, // Renamed
-  Shield
+  Shield,
+  Package, Wrench,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { ThemeToggle } from './ThemeToggle';
@@ -32,6 +33,8 @@ const navItems: NavItem[] = [
   { title: 'Dashboard', icon: Home, path: '/dashboard' },
   { title: 'Profile', icon: User, path: '/profile' },
   { title: 'Analytics', icon: BarChart3, path: '/analytics' },
+    { title: 'Products', icon: Package, path: '/products' },
+  { title: 'Spare Parts', icon: Wrench, path: '/spare-parts' },
   { title: 'Documents', icon: FileIcon, path: '/documents' },
   { title: 'Users', icon: UsersIcon, path: '/users' },
   { title: 'Notifications', icon: Bell, path: '/notifications' },

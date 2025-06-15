@@ -10,6 +10,8 @@ import Documents from '@/components/Documents';
 import Users from '@/components/Users';
 import Notifications from '@/components/Notifications';
 import Security from '@/components/Security';
+import Products from '../src/components/pages/Products';
+import SpareParts from '../src/components/pages/SpareParts';
 import Settings from '@/components/Settings';
 import type { AuthResponse } from '@/services/mockAuth';
 
@@ -180,6 +182,8 @@ function App() {
               </AnimatedPage>
             } 
           />
+          <Route path="products" element={<Products />} />
+          <Route path="spare-parts" element={<SpareParts />} />
           <Route path="*" element={<Navigate to="/dashboard" replace />} />
         </Routes>
       </AnimatePresence>
